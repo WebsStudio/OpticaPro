@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpticaPRO Novavisio | Tu óptica de confianza</title>
+  <meta name="description" content="Plantilla web para óptica: servicios, terapia visual, ubicaciones y reserva de cita online.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo">Optica<span>PRO</span> <small>Novavisio</small></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#terapia">Terapia visual</a>
+        <a href="#productos">Productos</a>
+        <a href="#ubicaciones">Ubicaciones</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#reserva" class="btn btn--green btn--sm">Pedir cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="container hero__grid">
+        <div class="hero__text reveal">
+          <h1>La versión más <span class="accent">PROfesional</span> de la óptica</h1>
+          <p>Ofrecemos la mejor experiencia visual. Tecnología de vanguardia y atención personalizada para tu salud ocular.</p>
+          <div class="hero__buttons">
+            <a href="#servicios" class="btn btn--navy">Nuestros servicios</a>
+            <a href="#ubicaciones" class="btn btn--outline">Ver tiendas</a>
+          </div>
+          <ul class="hero__features">
+            <li><span class="icon-circle"><i data-lucide="eye"></i></span>Atención experta</li>
+            <li><span class="icon-circle"><i data-lucide="award"></i></span>Calidad premium</li>
+            <li><span class="icon-circle"><i data-lucide="shield"></i></span>Servicio confiable</li>
+          </ul>
+        </div>
+        <div class="hero__image reveal">
+          <!-- IMAGEN: cambia este bloque por <img src="images/portada.jpg" alt="Descripción"> (repite en terapia y equipo). -->
+          <div class="img-placeholder img-placeholder--tall">
+            <i data-lucide="image"></i>
+            <span>Tu imagen principal aquí</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="pill"><i data-lucide="sparkles"></i> Nuestros servicios</span>
+          <h2>Cuidado integral de la visión</h2>
+          <p>Una gama completa de servicios ópticos diseñados para cuidar tu salud visual y mejorar tu calidad de vida.</p>
+        </div>
+        <div class="cards cards--3">
+          <article class="card card--blue reveal">
+            <span class="card__icon"><i data-lucide="eye"></i></span>
+            <h3>Examen visual completo</h3>
+            <p>Revisión exhaustiva de tu salud ocular y agudeza visual con la última tecnología.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+          <article class="card card--green reveal">
+            <span class="card__icon"><i data-lucide="glasses"></i></span>
+            <h3>Gafas graduadas</h3>
+            <p>Amplia selección de monturas de diseño y lentes con los mejores tratamientos.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+          <article class="card card--purple reveal">
+            <span class="card__icon"><i data-lucide="contact"></i></span>
+            <h3>Lentes de contacto</h3>
+            <p>Adaptación experta de lentes de contacto para todo tipo de correcciones.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+          <article class="card card--orange reveal">
+            <span class="card__icon"><i data-lucide="sun"></i></span>
+            <h3>Gafas de sol</h3>
+            <p>Protección UV con las mejores marcas, también con graduación.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+          <article class="card card--teal reveal">
+            <span class="card__icon"><i data-lucide="baby"></i></span>
+            <h3>Óptica infantil</h3>
+            <p>Control de la miopía y monturas resistentes pensadas para los más pequeños.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+          <article class="card card--pink reveal">
+            <span class="card__icon"><i data-lucide="wrench"></i></span>
+            <h3>Reparaciones</h3>
+            <p>Ajustes, soldaduras y cambio de piezas al momento y sin cita.</p>
+            <a href="#reserva" class="card__link">Saber más <i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TERAPIA VISUAL -->
+    <section class="dark-section" id="terapia">
+      <div class="container therapy__grid">
+        <div class="reveal">
+          <span class="pill pill--dark">Especialidad OpticaPRO Novavisio</span>
+          <h2 class="therapy__title">Terapia visual:<br><span class="accent">entrena tus ojos y cerebro</span></h2>
+          <p class="therapy__lead">La visión es mucho más que ver 20/20. La terapia visual es un programa personalizado de ejercicios diseñado para corregir problemas de procesamiento visual.</p>
+          <ul class="therapy__list">
+            <li><span class="icon-box"><i data-lucide="brain"></i></span><div><strong>Aprendizaje</strong><p>Mejora problemas de lectura y atención en niños.</p></div></li>
+            <li><span class="icon-box"><i data-lucide="activity"></i></span><div><strong>Rendimiento</strong><p>Dolores de cabeza o fatiga ocular al usar pantallas.</p></div></li>
+            <li><span class="icon-box"><i data-lucide="scan"></i></span><div><strong>Enfoque</strong><p>Trata la fatiga visual digital y problemas de enfoque.</p></div></li>
+            <li><span class="icon-box"><i data-lucide="target"></i></span><div><strong>Binocularidad</strong><p>Ojo vago o estrabismos leves que afectan la visión.</p></div></li>
+          </ul>
+          <a href="#reserva" class="btn btn--green btn--round">Solicitar evaluación</a>
+        </div>
+        <div class="reveal">
+          <div class="img-placeholder img-placeholder--dark">
+            <i data-lucide="image"></i>
+            <span>Imagen terapia visual</span>
+            <blockquote class="quote">
+              "La terapia visual cambió la vida de mi hijo. Sus notas mejoraron y ya no tiene dolores de cabeza al leer."
+              <cite>— María G., Paciente OpticaPRO</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section class="section section--alt" id="productos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="pill"><i data-lucide="shopping-bag"></i> Productos</span>
+          <h2>Marcas y soluciones para ti</h2>
+          <p>Monturas, lentes y accesorios seleccionados por nuestro equipo.</p>
+        </div>
+        <div class="cards cards--4">
+          <article class="product reveal"><div class="product__img"><i data-lucide="glasses"></i></div><h3>Monturas de diseño</h3><p>Desde 99 €</p></article>
+          <article class="product reveal"><div class="product__img"><i data-lucide="sun"></i></div><h3>Gafas de sol</h3><p>Desde 199 €</p></article>
+          <article class="product reveal"><div class="product__img"><i data-lucide="contact"></i></div><h3>Lentes de contacto</h3><p>Desde 15 €</p></article>
+          <article class="product reveal"><div class="product__img"><i data-lucide="sparkles"></i></div><h3>Accesorios y limpieza</h3><p>Desde 3 €</p></article>
+        </div>
+        <div class="promo reveal">
+          <div>
+            <span class="promo__tag">Promoción por tiempo limitado</span>
+            <h3>2 gafas por 99 €</h3>
+            <p>Lentes monofocales incluidas. “Quédate con una y regala la otra”.</p>
+          </div>
+          <a href="#reserva" class="btn btn--green">Aprovechar oferta</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPINIONES -->
+    <section class="reviews" id="opiniones">
+      <div class="container">
+        <div class="section__head section__head--dark reveal">
+          <span class="pill pill--light"><i data-lucide="star"></i> Opiniones</span>
+          <h2>Qué opinan nuestros clientes</h2>
+        </div>
+        <div class="cards cards--3">
+          <article class="review reveal">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <p>"Excelente trato y profesionalidad. Me han graduado la vista perfectamente y me han asesorado muy bien para elegir mis gafas. ¡Muy recomendables!"</p>
+            <footer><strong>María Antonia Gomila</strong><span>Hace 2 meses</span></footer>
+          </article>
+          <article class="review reveal">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <p>"La terapia visual ha sido un cambio radical para mi hijo. Ha mejorado mucho en el colegio. Gracias al equipo de OpticaPRO por su paciencia y dedicación."</p>
+            <footer><strong>Juan Pérez</strong><span>Hace 1 mes</span></footer>
+          </article>
+          <article class="review reveal">
+            <div class="stars" aria-label="5 estrellas">★★★★★</div>
+            <p>"Trato inmejorable. Fui por una urgencia y me atendieron al momento con mucha amabilidad. Profesionales de 10."</p>
+            <footer><strong>Laura García</strong><span>Hace 3 semanas</span></footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- UBICACIONES -->
+    <section class="section" id="ubicaciones">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Encuentra tu óptica más cercana</h2>
+          <p>Visita nuestras sucursales para recibir la atención personalizada que mereces.</p>
+        </div>
+        <div class="cards cards--3">
+          <article class="store reveal">
+            <!-- FOTO DE LA TIENDA: añade style="background-image: url('images/centro.jpg')" a .store__img; guarda la foto en images/. -->
+            <div class="store__img"><span>OpticaPRO Novavisio</span></div>
+            <ul class="store__info">
+              <li><i data-lucide="map-pin"></i> Plaça Cos, 1 07500 Manacor</li>
+              <li><i data-lucide="phone"></i> 681 115 346</li>
+              <li><i data-lucide="clock"></i> Lun-Vie: 9:30 - 14:00 / 16:30 - 20:00<br>Sáb: 10:00 - 14:00</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block">Ver perfil de negocio</a>
+          </article>
+          <article class="store reveal">
+            <div class="store__img"><span>OpticaPRO Cala Millor</span></div>
+            <ul class="store__info">
+              <li><i data-lucide="map-pin"></i> Ada. Cristobal Colon, 3 07560 Cala Millor</li>
+              <li><i data-lucide="phone"></i> 681 306 009</li>
+              <li><i data-lucide="clock"></i> Lun-Vie: 10:00 - 13:30 / 16:30 - 20:00<br>Sáb: 10:00 - 14:00</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block">Ver perfil de negocio</a>
+          </article>
+          <article class="store reveal">
+            <div class="store__img"><span>OpticaPRO Sol</span></div>
+            <ul class="store__info">
+              <li><i data-lucide="map-pin"></i> Plaça Cos, 14 07500 Manacor</li>
+              <li><i data-lucide="phone"></i> 871 778 616</li>
+              <li><i data-lucide="clock"></i> Lun-Vie: 10:00 - 13:30 / 16:30 - 20:00<br>Sáb: 10:00 - 14:00</li>
+            </ul>
+            <a href="#" class="btn btn--outline btn--block">Ver perfil de negocio</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE NOSOTROS -->
+    <section class="section section--alt" id="nosotros">
+      <div class="container about__grid">
+        <div class="reveal">
+          <span class="pill pill--soft">Sobre nosotros</span>
+          <h2 class="about__title">Tu óptica de confianza desde 20XX</h2>
+          <p>OpticaPRO Novavisio lleva años cuidando la salud visual de su comunidad. Lo que comenzó como una pequeña ilusión se ha convertido en un centro óptico de referencia, sin olvidar nuestras raíces.</p>
+          <p>Nuestro equipo de optometristas se dedica a brindar atención personalizada utilizando equipos de diagnóstico y métodos de tratamiento avanzados.</p>
+          <p>Creemos que todos merecen una visión clara y cómoda: por eso ofrecemos servicios integrales, desde exámenes de rutina hasta tratamientos especializados.</p>
+        </div>
+        <div class="about__image reveal">
+          <!-- IMAGEN: cambia este bloque por <img src="images/portada.jpg" alt="Descripción"> (repite en terapia y equipo). -->
+          <div class="img-placeholder img-placeholder--tall">
+            <i data-lucide="image"></i>
+            <span>Foto del equipo</span>
+          </div>
+          <div class="stat">
+            <strong data-count="25000">0</strong><span>+</span>
+            <small>Pacientes felices</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VALORES -->
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Nuestros valores</h2>
+          <p>Estos principios guían todo lo que hacemos en OpticaPRO Novavisio.</p>
+        </div>
+        <div class="cards cards--4">
+          <article class="value reveal"><span class="value__icon"><i data-lucide="heart"></i></span><h3>Atención centrada en el paciente</h3><p>Tu salud visual y satisfacción son nuestras prioridades.</p></article>
+          <article class="value reveal"><span class="value__icon"><i data-lucide="award"></i></span><h3>Excelencia y experiencia</h3><p>Años de experiencia combinados con la última tecnología.</p></article>
+          <article class="value reveal"><span class="value__icon"><i data-lucide="users"></i></span><h3>Enfoque familiar</h3><p>Cuidado ocular integral para todas las edades.</p></article>
+          <article class="value reveal"><span class="value__icon"><i data-lucide="target"></i></span><h3>Precisión y calidad</h3><p>Atención meticulosa en cada examen, ajuste y prescripción.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESERVA ONLINE -->
+    <section class="section section--alt" id="reserva">
+      <div class="container">
+        <div class="booking reveal">
+          <div class="booking__left">
+            <span class="pill pill--dark"><i data-lucide="clock"></i> Reserva online</span>
+            <h2>Reserva tu cita en <span class="accent">OpticaPRO Novavisio</span></h2>
+            <p>Agenda tu cita en segundos. Nuestros especialistas están listos para atenderte en cualquiera de nuestras tres ubicaciones.</p>
+            <ul class="booking__perks">
+              <li><span class="icon-box"><i data-lucide="check-circle-2"></i></span><div><strong>Confirmación rápida</strong><p>Respuesta inmediata</p></div></li>
+              <li><span class="icon-box"><i data-lucide="user"></i></span><div><strong>Expertos cualificados</strong><p>Atención profesional</p></div></li>
+            </ul>
+          </div>
+          <form class="booking__form" id="bookingForm" novalidate>
+            <div class="form-row">
+              <label>
+                <span><i data-lucide="user"></i> Nombre completo</span>
+                <input type="text" name="nombre" placeholder="Tu nombre" required>
+                <em class="error" aria-live="polite"></em>
+              </label>
+              <label>
+                <span><i data-lucide="phone"></i> Teléfono</span>
+                <input type="tel" name="telefono" placeholder="+34 600 000 000" required>
+                <em class="error" aria-live="polite"></em>
+              </label>
+            </div>
+            <div class="form-row">
+              <label>
+                <span><i data-lucide="mail"></i> Correo electrónico</span>
+                <input type="email" name="email" placeholder="tu@email.com" required>
+                <em class="error" aria-live="polite"></em>
+              </label>
+              <label>
+                <span><i data-lucide="map-pin"></i> Seleccionar tienda</span>
+                <select name="tienda" required>
+                  <option value="">Elige una ubicación</option>
+                  <option>OpticaPRO Novavisio</option>
+                  <option>OpticaPRO Cala Millor</option>
+                  <option>OpticaPRO Sol</option>
+                </select>
+                <em class="error" aria-live="polite"></em>
+              </label>
+            </div>
+            <div class="services-pick">
+              <span class="services-pick__label"><i data-lucide="eye"></i> Seleccionar servicio</span>
+              <div class="chips" id="chips">
+                <button type="button" class="chip is-active" data-value="Examen visual">Examen visual</button>
+                <button type="button" class="chip" data-value="Gafas">Gafas</button>
+                <button type="button" class="chip" data-value="Lentes de contacto">Lentes contacto</button>
+                <button type="button" class="chip" data-value="Terapia visual">Terapia visual</button>
+              </div>
+              <input type="hidden" name="servicio" id="servicioInput" value="Examen visual">
+            </div>
+            <button type="submit" class="btn btn--green btn--block btn--lg">Confirmar cita ahora</button>
+            <p class="form-msg" id="formMsg" role="status"></p>
+            <p class="legal">Al enviar este formulario aceptas nuestra política de privacidad y tratamiento de datos.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="pill pill--soft">Contacto</span>
+          <h2>Programa tu cita</h2>
+          <p>¿Listo para experimentar un cuidado ocular excepcional? Contáctanos hoy para reservar tu cita o conocer más sobre nuestros servicios.</p>
+        </div>
+        <div class="contact__grid">
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <h3>Envíanos un mensaje</h3>
+            <label>Nombre completo *<input type="text" name="nombre" placeholder="Juan Pérez" required></label>
+            <label>Correo electrónico *<input type="email" name="email" placeholder="juan@ejemplo.com" required></label>
+            <label>Teléfono<input type="tel" name="telefono" placeholder="+34 600 000 000"></label>
+            <label>Mensaje *<textarea name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas..." required></textarea></label>
+            <button type="submit" class="btn btn--navy btn--block">Enviar mensaje</button>
+            <p class="form-msg" id="contactMsg" role="status"></p>
+          </form>
+          <div class="contact__info reveal">
+            <h3>Información de contacto</h3>
+            <div class="info-card"><span class="icon-box icon-box--navy"><i data-lucide="map-pin"></i></span><div><strong>Visítanos</strong><p>Plaça Cos, 1<br>07500 Manacor</p></div></div>
+            <div class="info-card"><span class="icon-box icon-box--navy"><i data-lucide="phone"></i></span><div><strong>Llámanos</strong><p>681 115 346</p></div></div>
+            <div class="info-card"><span class="icon-box icon-box--navy"><i data-lucide="mail"></i></span><div><strong>Escríbenos</strong><p>pro@opticapronovavisio.es</p></div></div>
+            <div class="info-card"><span class="icon-box icon-box--navy"><i data-lucide="clock"></i></span><div><strong>Horario</strong><p>Lun-Vie: 9:30 - 20:30<br>Sáb: 10:00 - 14:00</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> OpticaPRO Novavisio</p>
+      <p><a href="#">Aviso legal</a> · <a href="#">Privacidad</a> · <a href="#">Cookies</a></p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP -->
+  <a href="https://wa.me/34600000001" class="whatsapp" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+</body>
+</html>
+
+
+
